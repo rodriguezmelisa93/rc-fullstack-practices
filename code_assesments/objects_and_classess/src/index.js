@@ -1,0 +1,1 @@
+export { default as aSimpleObject } from './a-simple-object';
