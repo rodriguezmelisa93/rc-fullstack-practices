@@ -47,7 +47,7 @@ render(){
         <form className="meme-form" onSubmit={this.handleSubmit}>
             <input type="text" name="top-input" placeholder="texto de arriba" onChange={this.handleChange} />
             <input type="text" name="bottom-input" placeholder="texto de abajo" onChange={this.handleChange}/>
-            <button>Change Meme</button>
+            <button>Change Meme now</button>
         </form>
      <div className="meme">
          <img src={this.state.randomImg}/>
